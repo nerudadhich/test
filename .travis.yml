@@ -1,0 +1,14 @@
+language: generic
+
+dist: xenial
+
+before_install:
+  - apt-get install ncftp
+  
+deploy:
+
+  - provider: script
+    script: echo "hello"
+    on:
+      branch:
+        - master
