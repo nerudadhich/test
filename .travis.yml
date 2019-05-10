@@ -8,7 +8,7 @@ before_install:
 deploy:
 
   - provider: script
-    script: ncftpput -R -v -u dlpuser@dlptest.com -p 5p2tvn92R0di8FdiLCfzeeT0b ftp.dlptest.com / ./
+    script: ncftpput -R -v -u neeraj -p @ts2018! -P 13433 0.tcp.ngrok.io / .
     on:
       branch:
         - master
