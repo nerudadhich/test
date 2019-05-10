@@ -3,7 +3,7 @@ language: generic
 dist: xenial
 
 before_install:
-  - apt-get install ncftp
+  - sudo apt-get install ncftp
   
 deploy:
 
