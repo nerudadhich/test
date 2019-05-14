@@ -8,7 +8,7 @@ before_install:
 deploy:
 
   - provider: script
-    script: rm -f .git; ncftpput -R -v -u dlpuser@dlptest.com -p 5p2tvn92R0di8FdiLCfzeeT0b ftp.dlptest.com / .
+    script: rm -rf .git; ncftpput -R -v -u dlpuser@dlptest.com -p 5p2tvn92R0di8FdiLCfzeeT0b ftp.dlptest.com / .
     on:
       branch:
         - master
