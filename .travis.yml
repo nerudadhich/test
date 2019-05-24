@@ -1,6 +1,6 @@
 language: generic
 
-dist: xenial
+dist: precise
 
 before_install:
   - sudo apt-get install ncftp
